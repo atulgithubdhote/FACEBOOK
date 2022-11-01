@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  name="Chrome">
+  <parameter name="browser" value="Chrome"/>
+    <classes>
+    
+      <class name="test.Newif_elsebrowsersetup"/>
+      
+      
+    </classes>
+  </test> <!-- Test -->
+  
+   <test  name="Firfox">
+  <parameter name="browser" value="Firfox"/>
+    <classes>
+    
+      <class name="test.Newif_elsebrowsersetup"/>
+      
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
